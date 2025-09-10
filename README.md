@@ -69,9 +69,12 @@ At the end, you will have a complete app with Firebase integration. ✅
 
 **Features to implement:**
 
-- Button **Call helloWorld** → Call the `helloWorld` function and display the response
-- Button **Call secureTaskCount** → Call the `secureTaskCount` function and display the user’s task
-  count
+- Button **Call helloWorld** → Call the deployed function `helloWorld` and display its response  
+  _(expected: `{ message: "Hello from Cloud Functions!" }`)_
+
+- Button **Call secureTaskCount** → Call the deployed function `secureTaskCount` and display the
+  number of tasks belonging to the logged-in user  
+  _(expected: `{ count: X }` where X is the total tasks for the current user)_
 
 ---
 
@@ -187,11 +190,14 @@ No final, você terá um app completo com integração ao Firebase. ✅
 
 ## 🔴 Nível 5 – Cloud Functions
 
-**Recursos a implementar:**
+**Funcionalidades a implementar:**
 
-- Botão **Call helloWorld** → Chamar a função `helloWorld` e mostrar a resposta
-- Botão **Call secureTaskCount** → Chamar a função `secureTaskCount` e mostrar a contagem de tarefas
-  do usuário
+- Botão **Call helloWorld** → Chamar a função `helloWorld` já implementada e mostrar a resposta  
+  _(esperado: `{ message: "Hello from Cloud Functions!" }`)_
+
+- Botão **Call secureTaskCount** → Chamar a função `secureTaskCount` já implementada e mostrar a
+  quantidade de tarefas do usuário logado  
+  _(esperado: `{ count: X }` onde X é o número total de tarefas do usuário atual)_
 
 ---
 
