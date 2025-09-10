@@ -1,0 +1,32 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Flutter/Build (toutes plateformes)
+.dart_tool/
+.buildlog/
+.packages
+flutter_*.png
+coverage/
+build/
+**/build/
+
+# Android
+android/local.properties
+**/*.keystore
+**/*.jks
+key.properties
+
+# iOS / macOS
+ios/Pods/
+ios/Flutter/ephemeral/
+macos/Flutter/ephemeral/
+
+# Linux / Windows
+linux/flutter/ephemeral/
+windows/flutter/ephemeral/
+
+# OS divers
+.DS_Store
+Thumbs.db
